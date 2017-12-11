@@ -3,4 +3,4 @@ function updateAppCache() {
 	window.applicationCache.update()
 }
 
-console.log("old")
+console.log("v2 js")

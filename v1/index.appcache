@@ -1,8 +1,8 @@
 CACHE MANIFEST
-# v0
+# v1
 
 CACHE:
-old_index.js
+index.js
 
 NETWORK:
 *

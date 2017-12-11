@@ -3,4 +3,4 @@ function updateAppCache() {
 	window.applicationCache.update()
 }
 
-console.log("latest")
+console.log("v1 js")

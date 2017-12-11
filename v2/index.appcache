@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# v2
+
+CACHE:
+index.js
+
+NETWORK:
+*
+
+FALLBACK:
+/ /

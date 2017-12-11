@@ -2,24 +2,18 @@ const express = require("express")
 
 const app = express()
 
+const version = "v1"
+
 app.get("*", function(req, res) {
 	if (req.path === "/index.appcache") {
-		res.sendFile("index.appcache", { root: __dirname })
+		res.sendFile(version + "/index.appcache", { root: __dirname })
 	} else if (req.path === "/index.js") {
-		setTimeout(() => {
-			res.sendFile("index.js", { root: __dirname })
-		}, 10000)
-	} else if (req.path === "/old_index.js") {
-		setTimeout(() => {
-			res.sendFile("old_index.js", { root: __dirname })
-		}, 10000)
+		res.sendFile(version + "/index.js", { root: __dirname })
 	} else if (req.path === "/favicon.ico") {
 		res.status(404).send("")
 	} else {
-		setTimeout(() => {
-			res.sendFile("old_index.html", { root: __dirname })
-		}, 0)
+		res.sendFile(version + "/index.html", { root: __dirname })
 	}
 })
 
-app.listen(5000, () => console.log("Listening on port 5000"))
+app.listen(5001, () => console.log("Listening on port 5000"))
