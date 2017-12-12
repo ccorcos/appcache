@@ -1,9 +1,8 @@
 CACHE MANIFEST
 # v1
 
-/appcache
-
 CACHE:
+/appcache
 index.js
 
 NETWORK:
