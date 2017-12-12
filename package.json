@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "deploy-v1": "surge v1 appcache-bug",
-    "deploy-v2": "surge v2 appcache-bug"
+    "deploy-v1": "surge v1 appcache.surge.sh",
+    "deploy-v2": "surge v2 appcache.surge.sh"
   },
   "keywords": [],
   "author": "Chet Corcos <ccorcos@gmail.com> (http://www.chetcorcos.com/)",
