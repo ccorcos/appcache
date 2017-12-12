@@ -1,11 +1,10 @@
 CACHE MANIFEST
 # v1
 
+/appcache
+
 CACHE:
 index.js
 
 NETWORK:
 *
-
-FALLBACK:
-/ /
