@@ -2,10 +2,8 @@ CACHE MANIFEST
 # v2
 
 CACHE:
+/appcache
 index.js
 
 NETWORK:
 *
-
-FALLBACK:
-/ /
